@@ -1,9 +1,8 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main: Entry point
+ * main - Entry point
  *
- * Description: This program demonstrates the usage of the write system call to print
  * Return: Always 0 (Success)
  */
 int main(void)
