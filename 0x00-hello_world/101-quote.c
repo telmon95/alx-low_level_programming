@@ -3,6 +3,7 @@
 /**
  * main: Entry point
  *
+ * Description: This program demonstrates the usage of the write system call to print a message to the standard error.
  * Return: Always 0 (Success)
  */
 int main(void)
