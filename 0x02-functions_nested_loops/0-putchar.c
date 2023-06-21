@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * main - print _putchar
- * is written 
+ * is written
  * Return: 0
  */
 
