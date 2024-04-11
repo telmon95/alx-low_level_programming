@@ -13,6 +13,7 @@ int binary_search(int *array, size_t size, int value)
 {
     size_t left = 0; /* Variable to hold the leftmost index of the array */
     size_t right = size - 1; /* Variable to hold the rightmost index of the array */
+    size_t i; /* Variable to iterate over the subarray */
     size_t mid; /* Variable to hold the middle index of the array */
 
     if (array == NULL) /* Check if array is NULL */
@@ -25,7 +26,7 @@ int binary_search(int *array, size_t size, int value)
         printf("Searching in array: "); /* Print the array being searched */
 
         /* Print the current subarray being searched */
-        for (size_t i = left; i <= right; i++)
+        for (i = left; i <= right; i++)
         {
             printf("%d", array[i]);
             if (i < right)
