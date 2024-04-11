@@ -3,7 +3,7 @@
 
 #include <math.h>
 #include <stdio.h>
-#include <stdlib>
+#include <stdlib.h>
 
 /**
  * struct listint_s - singly linked list
