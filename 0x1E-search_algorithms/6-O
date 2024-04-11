@@ -1,0 +1,2 @@
+The space complexity of the allocate_map function is O(n * m), where n is the number of rows and m is the number of columns. This is because it allocates memory for a 2D array of size n by m using malloc.
+

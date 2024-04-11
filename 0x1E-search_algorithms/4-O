@@ -1,0 +1,2 @@
+The time complexity (worst case) of a binary search in an array of size n is O(log n).
+
